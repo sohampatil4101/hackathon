@@ -1,0 +1,11 @@
+run instruction:
+
+flex calc.l
+bison -dy calc.y
+gcc lex.yy.c y.tab.c -o calculator
+
+iske baad ./calculator aisa likho cmd pe
+
+Enter the expression
+2+5
+Result = 7

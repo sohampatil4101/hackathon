@@ -1,0 +1,14 @@
+runniing instruction:
+
+flex lexp.l
+gcc lex.yy.c -o out
+
+iske baad ./out aisa likho cmd pe
+
+fir koi bhi number daalo jaisa 
+
+4
+positive number = 4
+
+-1
+negative number = -1
